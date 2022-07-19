@@ -1,5 +1,5 @@
 /* ----fonts file--- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 /* ------common styles------ */
 * {
@@ -186,9 +186,9 @@ nav ul li a i {
 
 .description {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     color: #787885;
-    width: 75%;
+    width: 73%;
 }
 
 .see-more-btn {
@@ -245,4 +245,50 @@ nav ul li a i {
 
 .feature-text i{
     margin-left: 10px;
+}
+
+/* footer style */
+footer {
+    background: #0A0826;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+footer h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #D9DBE1;
+    margin-bottom: 5px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+footer ul li {
+    background: #22213C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+
+footer ul li a {
+    color: #D9DBE1;
+    font-size: 20px;
+    line-height: 50px;
 }
