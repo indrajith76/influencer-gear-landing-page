@@ -15,7 +15,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
+.toggle-btn {
+    display: none;
+}
 nav .logo{
     font-size: 24px;
     font-weight: 700;
@@ -79,7 +81,6 @@ nav ul li a i {
     font-weight: 700;
     line-height: 70px;
     color: #3a3a3a;
-    /* padding-top: 103px; */
 }
 
 .banner-text p {
@@ -291,4 +292,128 @@ footer ul li a {
     color: #D9DBE1;
     font-size: 20px;
     line-height: 50px;
+}
+
+/* --------------------
+    Responsiveness 
+--------------------*/
+
+/* ------Mobile device------- */
+@media only screen and (min-width:360px) and (max-width:688px)  {
+    /* header style */
+    nav {
+        height: 81px;
+        padding: 0 16px 0 16px;
+    }
+
+    nav .logo{
+        font-size: 18px;
+    }
+
+    .toggle-btn {
+        display: block;
+        font-size: 18px;
+    }
+
+    nav ul li:nth-child(1),
+    li:nth-child(2),
+    li:nth-child(3),
+    li:nth-child(4),
+    li:nth-child(5)
+     {
+        display: none;
+    }
+
+    nav ul li {
+        margin-right: 0;
+    }
+
+    /* top banner style  */
+    .top-banner {
+        padding: 0 20px 50px 20px;
+    }
+
+    .banner-items {
+        flex-direction: column-reverse;
+        height: auto;
+        background-position: top;
+    }
+
+    .banner-text {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .banner-img {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .banner-img img {
+        height: auto;
+        width: 90%;
+        margin-top: 7%;
+    }
+
+    .banner-text h1 {
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* brands section style */
+    .brands-container {
+        padding: 0 42px 0 42px;
+        margin-bottom: 50px;
+    }
+
+    .brands-name {
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 15px;
+        height: auto;
+        border: none;
+    }
+
+    .brands-name img {
+        width: 70%;
+        
+    }
+
+    /* collection section style */
+    .collection-container {
+        padding: 0 15px 0 15px;
+    }
+    .collection h3 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .collection-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .see-more-btn {
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+    .feature-container, footer {
+        display: none;
+    }
 }
