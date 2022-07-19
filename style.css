@@ -1,0 +1,108 @@
+/* ----fonts file--- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ------common styles------ */
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----Navbar style---- */
+nav {
+    height: 181px;
+    padding: 0 120px 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #3a3a3a;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 34px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+nav ul li a i {
+    font-size: 25px;
+}
+
+
+/* ------top banner style------- */
+.top-banner {
+    padding: 0 120px 69px 120px;
+}
+
+.banner-items {
+    background: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 475px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text {
+    width: 60%;
+}
+
+.banner-img {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-img img {
+    height: auto;
+    width: 100%;
+}
+
+.banner-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #3a3a3a;
+    /* padding-top: 103px; */
+}
+
+.banner-text p {
+    font-size: 16px;
+    color: #3a3a3a;
+    line-height: 24px;
+    font-weight: 600;
+    width: 500px;
+    margin: 10px 0 35px 0;
+}
+
+.banner-btn {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 41px;
+    background: #E02C6D;
+
+}
+
+.banner-btn i {
+    margin-left: 10px;
+}
+
