@@ -407,13 +407,39 @@ footer ul li a {
         margin-top: 20px;
     }
 
+    /* feature style */
+    .feature-container {
+        padding: 50px 30px 0 30px;
+    }
+
+    .feature {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .feature-text {
+        margin: 0 15px 30px 15px;
+        text-align: center;
+    }
+
+    .feature-text h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .feature-img img {
+        width: 100%;
+    }
 
 
 
 
 
 
-    .feature-container, footer {
+
+
+    /* ddddddddddddddddddddddddddddd */
+     footer {
         display: none;
     }
 }
